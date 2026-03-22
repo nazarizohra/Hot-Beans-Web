@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans Web</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+	
+	top-bar {
+      background: #111;
+      color: #ffcc66;
+      text-align: center;
+      padding: 8px 0;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+	
+	.logo {
+      width: 90px;
+      height: 90px;
+	  border-radius: 50%;
+      margin-right: 15px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+	
+	.logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* left side */
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+	
+	header .logo {
+      width: 140px;   /* increased size */
+      height: auto;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+	
+
+    nav a {
+      color: #fff;
+	  margin: 0 10px;
+      text-decoration: none;
+	  font-size: 16px;
+    }
+	
+	nav a:hover {
+      color: #ff6600;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') no-repeat center/cover;
+      height: 80vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-content {
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 10px;
+	  max-width: 600px;
+      width: 90%;
+    }
+	
+	 button, .btn {
+      padding: 10px 15px;
+      border: none;
+      background: #ff6600;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    button:hover, .btn:hover {
+      background: #e65c00;
+    }
+    section {
+      padding: 40px 20px;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        text-align: center;
+        flex-direction: column;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      .hero {
+        height: 60vh;
+      }
+
+      .hero-content h2 {
+        font-size: 1.5rem;
+		 }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="top-bar">Established: 2017</div>
+
+<header>
+  <img src="Images/HBW logo.png" alt="Hot Beans Web Logo" class="logo">
+  
+  <nav>
+    <a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="employees.html">Our Developers</a>
+	<a href="job-spec.html">Careers</a>
+	<a href="application.html">Application Form</a>
+	<a href="courses.html">Recommended Web Development Courses</a>
+
+  </nav>
+</header>
+
+<section class="hero">
+ <div class="hero-content">
+    <h2>Welcome to Hot Beans Web</h2>
+    <p>We create modern, responsive websites and help junior developers grow their careers.</p>
+	
+	
+	<a href="about.html" class="btn">About Us</a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Hot Beans Web</p>
+</footer>
+
+
+</script>
+
+</body>
+</html>
